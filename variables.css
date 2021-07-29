@@ -2,34 +2,59 @@
 
 
 :root {
-  --color-accent: #50C7A5;
-  --color-onColor: #FFFFFF;
-  --color-reactive: #BA63C7;
-  --color-danger: #DE5386;
-  --color-warning: #EA8530;
-  --color-success: #4170D5;
-  --color-light-2dp: #F5F6F8;
-  --color-light-1dp: #ECEEF2;
-  --color-light-0dp: #DADEE5;
-  --color-onLight-over: rgba(#2F3144, .08);
-  --color-onLight-separator: rgba(#2F3144, 0.16);
-  --color-onLight-primary: rgba(#2F3144, 0.96);
-  --color-onLight-secondary: rgba(#2F3144, 0.72);
-  --color-onLight-tertiary: rgba(#2F3144, 0.56);
-  --color-onLight-quaternary: rgba(#2F3144, 0.4);
-  --color-dark-2dp: #2F3144;
-  --color-dark-1dp: #292C3C;
-  --color-dark-0dp: #242634;
-  --color-onDark-over: rgba(#020303, .16);
-  --color-onDark-separator: rgba(#020303, 0.24);
-  --color-onDark-primary: rgba(#E0E1E9, 0.96);
-  --color-onDark-secondary: rgba(#E0E1E9, 0.72);
-  --color-onDark-tertiary: rgba(#E0E1E9, 0.56);
-  --color-onDark-quaternary: rgba(#E0E1E9, 0.4);
-  --shadow-lv1: 0px 0.5px 2px 0px rgba(0,0,0, 16%),0px 0px 1px 0px rgba(0,0,0, 8%);
-  --shadow-lv2: 0px 2px 4px 0px rgba(0,0,0, 16%), 0px 0px 1px 0px rgba(0,0,0, 4%);
-  --shadow-lv3: 0px 4px 8px 0px rgba(0,0,0, 16%),0px 0px 2px 0px rgba(0,0,0, 4%);
-  --shadow-lv4: 0px 8px 16px 0px rgba(0,0,0, 16%),0px 2px 4px 0px rgba(0,0,0, 4%);
-  --shadow-lv5: 0px 16px 24px 0px rgba(0,0,0, 16%),0px 2px 8px 0px rgba(0,0,0, 4%);
-  --shadow-lv6: 0px 20px 32px 0px rgba(0,0,0, 24%),0px 2px 8px 0px rgba(0,0,0, 8%);
+  --hdcms--color-accent: #50C7A5;
+  --hdcms--color-onColor: #FFFFFF;
+  --hdcms--color-reactive: #BA63C7;
+  --hdcms--color-danger: #DE5386;
+  --hdcms--color-warning: #EA8530;
+  --hdcms--color-success: #4170D5;
+
+  --hdcms--color-light-2dp: #F5F6F8;
+  --hdcms--color-light-1dp: #ECEEF2;
+  --hdcms--color-light-0dp: #DADEE5;
+
+  --hdcms--color-onLight-over: rgba(#2F3144, .08);
+  --hdcms--color-onLight-separator: rgba(#2F3144, 0.16);
+  --hdcms--color-onLight-primary: rgba(#2F3144, 0.96);
+  --hdcms--color-onLight-secondary: rgba(#2F3144, 0.72);
+  --hdcms--color-onLight-tertiary: rgba(#2F3144, 0.56);
+  --hdcms--color-onLight-quaternary: rgba(#2F3144, 0.4);
+
+  --hdcms--color-dark-2dp: #2F3144;
+  --hdcms--color-dark-1dp: #292C3C;
+  --hdcms--color-dark-0dp: #242634;
+
+  --hdcms--color-onDark-over: rgba(#020303, .16);
+  --hdcms--color-onDark-separator: rgba(#020303, 0.24);
+  --hdcms--color-onDark-primary: rgba(#E0E1E9, 0.96);
+  --hdcms--color-onDark-secondary: rgba(#E0E1E9, 0.72);
+  --hdcms--color-onDark-tertiary: rgba(#E0E1E9, 0.56);
+  --hdcms--color-onDark-quaternary: rgba(#E0E1E9, 0.4);
+
+  --hdcms--shadow-lv1: 0px 0.5px 2px 0px rgba(0,0,0, 16%),0px 0px 1px 0px rgba(0,0,0, 8%);
+  --hdcms--shadow-lv2: 0px 2px 4px 0px rgba(0,0,0, 16%), 0px 0px 1px 0px rgba(0,0,0, 4%);
+  --hdcms--shadow-lv3: 0px 4px 8px 0px rgba(0,0,0, 16%),0px 0px 2px 0px rgba(0,0,0, 4%);
+  --hdcms--shadow-lv4: 0px 8px 16px 0px rgba(0,0,0, 16%),0px 2px 4px 0px rgba(0,0,0, 4%);
+  --hdcms--shadow-lv5: 0px 16px 24px 0px rgba(0,0,0, 16%),0px 2px 8px 0px rgba(0,0,0, 4%);
+  --hdcms--shadow-lv6: 0px 20px 32px 0px rgba(0,0,0, 24%),0px 2px 8px 0px rgba(0,0,0, 8%);
+
+  --hdcms--globalfont_family: 'M PLUS Rounded 1c','游ゴシック',YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  --hdcms--fs-xsmall: 11px;
+  --hdcms--fs-small: 13px;
+  --hdcms--fs-base: 16px;
+  --hdcms--fs-large: 19px;
+  --hdcms--fs-xlarge: 23px;
+  --hdcms--fs-xxlarge: 28px;
+  --hdcms--fs-hero: 33px;
+
+  --hdcms--lh-xsmall: 16px;
+  --hdcms--lh-small: 16px;
+  --hdcms--lh-base: 24px;
+  --hdcms--lh-large: 24px;
+  --hdcms--lh-xlarge: 24px;
+  --hdcms--lh-xxlarge: 32px;
+  --hdcms--lh-hero: 40px;
+
+  --hdcms--spacing: 8px;
 }
